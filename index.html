@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="calculator-screen" id="screen" disabled />
+    <div class="calculator-keys">
+      <!-- Basic Operators -->
+      <button value="clear">C</button>
+      <button value="(">(</button>
+      <button value=")">)</button>
+      <button class="operator" value="/">÷</button>
+
+      <button value="7">7</button>
+      <button value="8">8</button>
+      <button value="9">9</button>
+      <button class="operator" value="*">×</button>
+
+      <button value="4">4</button>
+      <button value="5">5</button>
+      <button value="6">6</button>
+      <button class="operator" value="-">−</button>
+
+      <button value="1">1</button>
+      <button value="2">2</button>
+      <button value="3">3</button>
+      <button class="operator" value="+">+</button>
+
+      <button value="0">0</button>
+      <button value=".">.</button>
+      <button value="log">log</button>
+      
+
+      <!-- Additional Scientific Functions -->
+      <button class="operator" value="=">=</button>
+      <button value="ln">ln</button>
+      <button value="y^x">x^y</button>
+      <button value="sqrt">√</button>
+
+      <button value="1/x">1/x</button>
+      <button value="pi">π</button>
+      <button value="e">e</button>
+      <button value="x^2">x²</button>
+
+      <button value="sin">sin</button>
+      <button value="cos">cos</button>
+      <button value="tan">tan</button>
+
+      <button value="asin">asin</button>
+      <button value="acos">acos</button>
+      <button value="atan">atan</button>
+
+      <!-- Additional Functions -->
+      <button value="deg">deg</button>
+      <button value="rad">rad</button>
+      <button value="grad">grad</button>
+
+      <!-- Base Conversions -->
+      <button value="bin">Bin</button>
+      <button value="oct">Oct</button>
+      <button value="dec">Dec</button>
+      <button value="hex">Hex</button>
+
+      <!-- Logical Operators -->
+      <button value="and">AND</button>
+      <button value="or">OR</button>
+      <button value="not">NOT</button>
+      <button value="xor">XOR</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
